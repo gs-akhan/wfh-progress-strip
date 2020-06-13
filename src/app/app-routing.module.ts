@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ButtonComponent } from './button/button.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 const routes: Routes = [{
   path: "layout",
-  component: ButtonComponent
+  component: LayoutComponent
 },{
   path: "button",
   component: ButtonComponent
