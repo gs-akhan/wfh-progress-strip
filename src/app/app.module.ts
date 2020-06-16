@@ -12,13 +12,15 @@ import { MenuComponent } from './menu/menu.component';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
-
+import { DropdownComponent } from './dropdown/dropdown.component';
+import { NzSpaceModule } from 'ng-zorro-antd/space';
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
     LayoutComponent,
-    MenuComponent
+    MenuComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
     NzLayoutModule,
     ScrollingModule,
     NzMenuModule,
-    NzDropDownModule
+    NzDropDownModule,
+    NzSpaceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

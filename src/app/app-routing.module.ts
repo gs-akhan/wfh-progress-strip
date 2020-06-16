@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ButtonComponent } from './button/button.component';
 import { LayoutComponent } from './layout/layout.component';
 import { MenuComponent } from './menu/menu.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 
 const routes: Routes = [{
@@ -14,6 +15,9 @@ const routes: Routes = [{
 },{
   path: "menu",
   component: MenuComponent
+},{
+  path: "dropdown",
+  component: DropdownComponent
 }];
 
 @NgModule({
