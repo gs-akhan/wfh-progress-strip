@@ -14,13 +14,15 @@ import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { NzSpaceModule } from 'ng-zorro-antd/space';
+import { StepsComponent } from './steps/steps.component';
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
     LayoutComponent,
     MenuComponent,
-    DropdownComponent
+    DropdownComponent,
+    StepsComponent
   ],
   imports: [
     BrowserModule,
