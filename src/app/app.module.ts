@@ -15,6 +15,8 @@ import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { NzSpaceModule } from 'ng-zorro-antd/space';
 import { StepsComponent } from './steps/steps.component';
+import { NzStepsModule } from 'ng-zorro-antd/steps';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ import { StepsComponent } from './steps/steps.component';
     ScrollingModule,
     NzMenuModule,
     NzDropDownModule,
-    NzSpaceModule
+    NzSpaceModule,
+    NzStepsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
