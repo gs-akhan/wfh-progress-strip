@@ -4,6 +4,7 @@ import { ButtonComponent } from './button/button.component';
 import { LayoutComponent } from './layout/layout.component';
 import { MenuComponent } from './menu/menu.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
+import { StepsComponent } from './steps/steps.component';
 
 
 const routes: Routes = [{
@@ -18,6 +19,9 @@ const routes: Routes = [{
 },{
   path: "dropdown",
   component: DropdownComponent
+},{
+  path: "steps",
+  component: StepsComponent
 }];
 
 @NgModule({
