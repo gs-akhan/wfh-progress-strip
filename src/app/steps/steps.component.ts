@@ -28,15 +28,15 @@ export class StepsComponent implements OnInit {
   changeContent(): void {
     switch (this.current) {
       case 0: {
-        this.index = 'First-content';
+        this.index = 'First Content';
         break;
       }
       case 1: {
-        this.index = 'Second-content';
+        this.index = 'Second Content';
         break;
       }
       case 2: {
-        this.index = 'third-content';
+        this.index = 'Third Content';
         break;
       }
       default: {
