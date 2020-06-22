@@ -16,6 +16,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
 import { NzSpaceModule } from 'ng-zorro-antd/space';
 import { StepsComponent } from './steps/steps.component';
 import { NzStepsModule } from 'ng-zorro-antd/steps';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NzStepsModule } from 'ng-zorro-antd/steps';
     LayoutComponent,
     MenuComponent,
     DropdownComponent,
-    StepsComponent
+    StepsComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
