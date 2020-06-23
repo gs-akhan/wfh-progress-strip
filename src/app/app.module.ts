@@ -17,6 +17,8 @@ import { NzSpaceModule } from 'ng-zorro-antd/space';
 import { StepsComponent } from './steps/steps.component';
 import { NzStepsModule } from 'ng-zorro-antd/steps';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+import { NzAutocompleteModule } from 'ng-zorro-antd/auto-complete';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
     NzMenuModule,
     NzDropDownModule,
     NzSpaceModule,
-    NzStepsModule
+    NzStepsModule,
+    NzAutocompleteModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

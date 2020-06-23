@@ -5,6 +5,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { MenuComponent } from './menu/menu.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { StepsComponent } from './steps/steps.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 
 
 const routes: Routes = [{
@@ -22,6 +23,9 @@ const routes: Routes = [{
 },{
   path: "steps",
   component: StepsComponent
+},{
+  path: "autocomplete",
+  component: AutocompleteComponent
 }];
 
 @NgModule({
