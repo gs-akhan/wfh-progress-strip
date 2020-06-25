@@ -19,6 +19,7 @@ import { NzStepsModule } from 'ng-zorro-antd/steps';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { NzAutocompleteModule } from 'ng-zorro-antd/auto-complete';
 import { FormsModule } from '@angular/forms';
+import { DatepickerComponent } from './datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormsModule } from '@angular/forms';
     MenuComponent,
     DropdownComponent,
     StepsComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    DatepickerComponent
   ],
   imports: [
     BrowserModule,
