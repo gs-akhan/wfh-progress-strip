@@ -20,6 +20,7 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { NzAutocompleteModule } from 'ng-zorro-antd/auto-complete';
 import { FormsModule } from '@angular/forms';
 import { DatepickerComponent } from './datepicker/datepicker.component';
+import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
     NzSpaceModule,
     NzStepsModule,
     NzAutocompleteModule,
-    FormsModule
+    FormsModule,
+    NzDatePickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
