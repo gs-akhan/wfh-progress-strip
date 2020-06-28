@@ -21,6 +21,9 @@ import { NzAutocompleteModule } from 'ng-zorro-antd/auto-complete';
 import { FormsModule } from '@angular/forms';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
+import { NzCardModule } from 'ng-zorro-antd/card';
+import { CardComponent } from './card/card.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +34,8 @@ import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
     DropdownComponent,
     StepsComponent,
     AutocompleteComponent,
-    DatepickerComponent
+    DatepickerComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,8 @@ import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
     NzStepsModule,
     NzAutocompleteModule,
     FormsModule,
-    NzDatePickerModule
+    NzDatePickerModule,
+    NzCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
