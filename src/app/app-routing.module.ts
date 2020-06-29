@@ -7,6 +7,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
 import { StepsComponent } from './steps/steps.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
+import { CardComponent } from './card/card.component';
 
 
 const routes: Routes = [{
@@ -30,6 +31,9 @@ const routes: Routes = [{
 }, {
   path: "datepicker",
   component: DatepickerComponent
+}, {
+  path: "card",
+  component: CardComponent
 }];
 
 @NgModule({
