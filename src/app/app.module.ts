@@ -23,6 +23,7 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { CardComponent } from './card/card.component';
+import { ListComponent } from './list/list.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { CardComponent } from './card/card.component';
     StepsComponent,
     AutocompleteComponent,
     DatepickerComponent,
-    CardComponent
+    CardComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
