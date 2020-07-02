@@ -8,6 +8,7 @@ import { StepsComponent } from './steps/steps.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { CardComponent } from './card/card.component';
+import { ListComponent } from './list/list.component';
 
 
 const routes: Routes = [{
@@ -34,6 +35,9 @@ const routes: Routes = [{
 }, {
   path: "card",
   component: CardComponent
+},{
+  path: "list",
+  component: ListComponent
 }];
 
 @NgModule({

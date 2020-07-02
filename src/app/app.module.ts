@@ -24,6 +24,7 @@ import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
+import { NzListModule } from 'ng-zorro-antd/list';
 
 
 @NgModule({
