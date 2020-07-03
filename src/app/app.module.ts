@@ -54,7 +54,8 @@ import { NzListModule } from 'ng-zorro-antd/list';
     NzAutocompleteModule,
     FormsModule,
     NzDatePickerModule,
-    NzCardModule
+    NzCardModule,
+    NzListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
