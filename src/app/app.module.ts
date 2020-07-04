@@ -25,6 +25,7 @@ import { NzCardModule } from 'ng-zorro-antd/card';
 import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
 import { NzListModule } from 'ng-zorro-antd/list';
+import { NzMessageService } from 'ng-zorro-antd/message';
 
 
 @NgModule({
@@ -57,7 +58,7 @@ import { NzListModule } from 'ng-zorro-antd/list';
     NzCardModule,
     NzListModule
   ],
-  providers: [],
+  providers: [NzMessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -12,7 +12,8 @@ data = [
     'Japanese princess to wed commoner.',
     'Australian walks 100km after outback crash.',
     'Man charged over missing wedding girl.',
-    'Los Angeles battles huge wildfires.'
+    'Los Angeles battles huge wildfires.',
+    'Antd has a messag service. read more about it'
   ];
   constructor(public msg: NzMessageService) {}
 
