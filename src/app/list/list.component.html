@@ -24,6 +24,7 @@
     <nz-list-header>Header</nz-list-header>
     <li nz-list-item
         *ngFor="let item of data"
+        (click)="msg.info('Editing a Row')"
         nzNoFlex>
         <ul nz-list-item-actions>
             <nz-list-item-action>
