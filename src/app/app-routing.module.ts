@@ -39,7 +39,7 @@ const routes: Routes = [{
   path: "list",
   component: ListComponent
 }];
-
+//Added a comment
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
