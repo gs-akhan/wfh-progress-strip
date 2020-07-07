@@ -27,6 +27,7 @@ import { ListComponent } from './list/list.component';
 import { NzListModule } from 'ng-zorro-antd/list';
 import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzMessageModule } from 'ng-zorro-antd/message';
+import { NotificationComponent } from './notification/notification.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { NzMessageModule } from 'ng-zorro-antd/message';
     AutocompleteComponent,
     DatepickerComponent,
     CardComponent,
-    ListComponent
+    ListComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
