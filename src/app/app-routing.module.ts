@@ -9,6 +9,7 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
+import { NotificationComponent } from './notification/notification.component';
 
 
 const routes: Routes = [{
@@ -38,6 +39,9 @@ const routes: Routes = [{
 },{
   path: "list",
   component: ListComponent
+}, {
+  path: "notification",
+  component: NotificationComponent
 }];
 //Added a comment
 @NgModule({
