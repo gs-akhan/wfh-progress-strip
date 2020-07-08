@@ -29,6 +29,7 @@ import { NzMessageService } from 'ng-zorro-antd/message';
 import { NzMessageModule } from 'ng-zorro-antd/message';
 import { NotificationComponent } from './notification/notification.component';
 import { NzNotificationModule } from 'ng-zorro-antd/notification';
+import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { NzNotificationModule } from 'ng-zorro-antd/notification';
     DatepickerComponent,
     CardComponent,
     ListComponent,
-    NotificationComponent
+    NotificationComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
