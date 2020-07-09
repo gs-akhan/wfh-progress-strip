@@ -30,7 +30,7 @@ import { NzMessageModule } from 'ng-zorro-antd/message';
 import { NotificationComponent } from './notification/notification.component';
 import { NzNotificationModule } from 'ng-zorro-antd/notification';
 import { ModalComponent } from './modal/modal.component';
-
+import { NzModalModule } from 'ng-zorro-antd/modal';
 
 @NgModule({
   declarations: [

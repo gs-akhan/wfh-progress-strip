@@ -10,6 +10,7 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
 import { NotificationComponent } from './notification/notification.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 const routes: Routes = [{
@@ -42,6 +43,9 @@ const routes: Routes = [{
 }, {
   path: "notification",
   component: NotificationComponent
+}, {
+  path : "modal",
+  component : ModalComponent
 }];
 //Added a comment
 @NgModule({
