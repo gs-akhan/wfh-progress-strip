@@ -64,7 +64,8 @@ import { NzModalModule } from 'ng-zorro-antd/modal';
     NzCardModule,
     NzListModule,
     NzMessageModule,
-    NzNotificationModule
+    NzNotificationModule,
+    NzModalModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]
