@@ -9,7 +9,9 @@ export class ModalComponent implements OnInit {
 
   isVisible = false;
   isVisibleNew = false
+  isConfirmLoading = true;
   constructor() { }
+  
   ngOnInit() { }
   showModal(): void {
     this.isVisible = true;
@@ -26,7 +28,7 @@ export class ModalComponent implements OnInit {
   handleCancel(): void {
     console.log('Button cancel clicked!');
     this.isVisible = false;
-    this.isVisibleNew = false;
+    this.isVisibleNew = true;
   }
 
 }
