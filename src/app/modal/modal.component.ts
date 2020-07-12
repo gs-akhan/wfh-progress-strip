@@ -8,13 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class ModalComponent implements OnInit {
 
   isVisible = false;
-
+  isVisibleNew = false
   constructor() { }
   ngOnInit() { }
   showModal(): void {
     this.isVisible = true;
   }
 
+  showModalNew() {
+    this.isVisibleNew = true;
+  }
   handleOk(): void {
     console.log('Button ok clicked!');
     this.isVisible = false;
@@ -23,6 +26,7 @@ export class ModalComponent implements OnInit {
   handleCancel(): void {
     console.log('Button cancel clicked!');
     this.isVisible = false;
+    this.isVisibleNew = false;
   }
 
 }
