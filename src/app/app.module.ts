@@ -31,7 +31,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { NzNotificationModule } from 'ng-zorro-antd/notification';
 import { ModalComponent } from './modal/modal.component';
 import { NzModalModule } from 'ng-zorro-antd/modal';
-
+import { NzGridModule } from 'ng-zorro-antd/grid';
 @NgModule({
   declarations: [
     AppComponent,
@@ -65,7 +65,8 @@ import { NzModalModule } from 'ng-zorro-antd/modal';
     NzListModule,
     NzMessageModule,
     NzNotificationModule,
-    NzModalModule
+    NzModalModule,
+    NzGridModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]
