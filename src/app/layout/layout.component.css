@@ -2,3 +2,12 @@
     background-color: papayawhip;
     height: 200px;
 }
+
+
+input {
+    width : 100%;
+}
+
+.form-ele > div {
+    margin-bottom : 1rem;
+}

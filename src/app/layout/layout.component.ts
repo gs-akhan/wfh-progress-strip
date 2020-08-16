@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LayoutComponent implements OnInit {
 
 
-  public value: string;
+  public value:string;
   constructor() { }
 
   ngOnInit(): void {

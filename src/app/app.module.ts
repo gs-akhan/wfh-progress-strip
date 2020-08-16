@@ -34,7 +34,7 @@ import { NzModalModule } from 'ng-zorro-antd/modal';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { HttpClientModule } from '@angular/common/http';
-
+import { NzSliderModule } from 'ng-zorro-antd/slider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -71,7 +71,8 @@ import { HttpClientModule } from '@angular/common/http';
     NzModalModule,
     NzGridModule,
     NzIconModule,
-    HttpClientModule
+    HttpClientModule,
+    NzSliderModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]
