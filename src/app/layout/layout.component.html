@@ -1,11 +1,9 @@
-<div
-    nz-row
-    style="height : 200px;">
-    <div style="background-color : pink;" nz-col nzXs="12">
-        Col
+<div nz-row >
+    <div nz-col nzSpan="12" nzGutter = "100">
+        <div nz-row nzJustify = "start" nzAlign = "middle" >
+            <input nz-input placeholder="Basic usage" [(ngModel)]="value" />
+            <div>X</div>
+        </div>
     </div>
-    <div style="background-color : pink;"
-        nz-col nzXs="12">
-        Col
-    </div>
+    <div nz-col nzSpan="12">col-12</div>
 </div>

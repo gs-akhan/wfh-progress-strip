@@ -32,6 +32,9 @@ import { NzNotificationModule } from 'ng-zorro-antd/notification';
 import { ModalComponent } from './modal/modal.component';
 import { NzModalModule } from 'ng-zorro-antd/modal';
 import { NzGridModule } from 'ng-zorro-antd/grid';
+import { NzIconModule } from 'ng-zorro-antd/icon';
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,7 +69,9 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
     NzMessageModule,
     NzNotificationModule,
     NzModalModule,
-    NzGridModule
+    NzGridModule,
+    NzIconModule,
+    HttpClientModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]
