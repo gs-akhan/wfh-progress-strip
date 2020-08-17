@@ -35,6 +35,7 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { HttpClientModule } from '@angular/common/http';
 import { NzSliderModule } from 'ng-zorro-antd/slider';
+import { ComplexgridComponent } from './complexgrid/complexgrid.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,7 +49,8 @@ import { NzSliderModule } from 'ng-zorro-antd/slider';
     CardComponent,
     ListComponent,
     NotificationComponent,
-    ModalComponent
+    ModalComponent,
+    ComplexgridComponent
   ],
   imports: [
     BrowserModule,
