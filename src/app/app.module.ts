@@ -36,6 +36,9 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { HttpClientModule } from '@angular/common/http';
 import { NzSliderModule } from 'ng-zorro-antd/slider';
 import { ComplexgridComponent } from './complexgrid/complexgrid.component';
+import { NzTypographyModule } from 'ng-zorro-antd/typography';
+import { NzSelectModule } from 'ng-zorro-antd/select';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -74,7 +77,9 @@ import { ComplexgridComponent } from './complexgrid/complexgrid.component';
     NzGridModule,
     NzIconModule,
     HttpClientModule,
-    NzSliderModule
+    NzSliderModule,
+    NzTypographyModule,
+    NzSelectModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]

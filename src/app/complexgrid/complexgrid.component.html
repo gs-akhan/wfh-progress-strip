@@ -1,1 +1,44 @@
-<p>complexgrid works!</p>
+<div style = "width : 500px; margin : 0px auto;">
+
+
+    <div nz-row>
+        <h4 nz-typography>Edit Fields</h4>
+        <div nz-typography nzType="secondary"> Select a field from the list of editable fields and 
+            enter a value in 'New Value'. This change set will apply to all the selected records.
+        </div>
+    </div>
+
+
+    <div nz-row [nzJustify] = "'space-between'">
+        <nz-row nz-col nzFlex = "40%" nz-typography> Field </nz-row>
+        <nz-row nz-col nzFlex = "40%" nz-typography> Change Value To</nz-row>
+        <nz-row nz-col nzFlex = "10%"></nz-row>
+    </div>
+
+    <div nz-row *ngFor="let item of [1,2,3]" [nzJustify] = "'space-between'">
+        <div nz-col nzFlex = "40%" nz-typography> 
+            <nz-select style = "width : 100%" ngModel = "Rust">
+                <nz-option *ngFor="let c of languages" [nzValue]="c" [nzLabel]="c"></nz-option>
+            </nz-select>
+
+        </div>
+
+        <div nz-col nzFlex = "40%" nz-typography>
+            <nz-select ngModel = "Java" style = "width : 100%">
+                <nz-option *ngFor="let c of languages" [nzValue]="c" [nzLabel]="c"></nz-option>
+            </nz-select>
+        </div>
+        
+        <div nz-col nzFlex = "10%">
+            <div nz-row nz-col [nzJustify] = "'space-between'">
+                <span> X </span>
+                <span> + </span>    
+            </div>
+        </div>
+        
+
+    </div>
+
+
+   
+</div>

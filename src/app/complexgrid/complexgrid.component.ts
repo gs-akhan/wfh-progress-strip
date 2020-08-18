@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComplexgridComponent implements OnInit {
 
+  languages = ["Rust", "Go", "Python", "Perl", "Cobalt", "Java"];
+  
   constructor() { }
-
+  
   ngOnInit(): void {
   }
 
