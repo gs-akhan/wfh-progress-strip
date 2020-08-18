@@ -10,6 +10,7 @@ import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
 import { NotificationComponent } from './notification/notification.component';
 import { ModalComponent } from './modal/modal.component';
+import { ComplexgridComponent } from './complexgrid/complexgrid.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -43,4 +44,8 @@ export const routes: Routes = [{
 }, {
   path: "modal",
   component: ModalComponent
+},
+{
+  path: "grid",
+  component: ComplexgridComponent
 }];
