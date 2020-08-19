@@ -38,6 +38,7 @@ import { NzSliderModule } from 'ng-zorro-antd/slider';
 import { ComplexgridComponent } from './complexgrid/complexgrid.component';
 import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { NzSelectModule } from 'ng-zorro-antd/select';
+import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
     ListComponent,
     NotificationComponent,
     ModalComponent,
-    ComplexgridComponent
+    ComplexgridComponent,
+    FieldmapperComponent
   ],
   imports: [
     BrowserModule,
