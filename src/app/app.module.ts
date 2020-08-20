@@ -39,6 +39,8 @@ import { ComplexgridComponent } from './complexgrid/complexgrid.component';
 import { NzTypographyModule } from 'ng-zorro-antd/typography';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
+import { NzDividerModule } from 'ng-zorro-antd/divider';
+import { NzCheckboxModule } from 'ng-zorro-antd/checkbox';
 
 @NgModule({
   declarations: [
@@ -81,7 +83,9 @@ import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
     HttpClientModule,
     NzSliderModule,
     NzTypographyModule,
-    NzSelectModule
+    NzSelectModule,
+    NzDividerModule,
+    NzCheckboxModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]

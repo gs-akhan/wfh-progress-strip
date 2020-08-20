@@ -10,9 +10,9 @@
 
 
     <div nz-row [nzJustify] = "'space-between'">
-        <nz-row nz-col nzFlex = "40%" nz-typography> Field </nz-row>
-        <nz-row nz-col nzFlex = "40%" nz-typography> Change Value To</nz-row>
-        <nz-row nz-col nzFlex = "10%"></nz-row>
+        <div nz-col nzFlex = "40%" nz-typography> Field </div>
+        <div nz-col nzFlex = "40%" nz-typography> Change Value To</div>
+        <div nz-col nzFlex = "10%"></div>
     </div>
 
     <div nz-row *ngFor="let item of [1,2,3]" [nzJustify] = "'space-between'">
@@ -20,7 +20,6 @@
             <nz-select style = "width : 100%" ngModel = "Rust">
                 <nz-option *ngFor="let c of languages" [nzValue]="c" [nzLabel]="c"></nz-option>
             </nz-select>
-
         </div>
 
         <div nz-col nzFlex = "40%" nz-typography>

@@ -11,6 +11,7 @@ import { ListComponent } from './list/list.component';
 import { NotificationComponent } from './notification/notification.component';
 import { ModalComponent } from './modal/modal.component';
 import { ComplexgridComponent } from './complexgrid/complexgrid.component';
+import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -48,4 +49,7 @@ export const routes: Routes = [{
 {
   path: "grid",
   component: ComplexgridComponent
+}, {
+  path: "fields",
+  component: FieldmapperComponent
 }];
