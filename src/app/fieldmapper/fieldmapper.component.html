@@ -17,19 +17,18 @@
         <div nz-col nzFlex = "40%" nz-typography> Field </div>
         <div nz-col nzFlex = "40%" nz-typography> Change Value To</div>
         <div nz-col nzFlex = "10%"> Editable</div>
-        
     </div>  
     <nz-divider style = "margin : 5px 0px;"></nz-divider>
 
     <div nz-row [nzJustify] = "'space-between'" *ngFor="let item of languages">
         <div nz-col nzFlex = "40%" nz-typography> {{item.name}} </div>
-        <div nz-col nzFlex = "40%" nz-typography> {{item.description}}</div>
+        <div nz-col nzFlex = "40%" nz-typography>
+            <input type="text" nz-input [(ngModel)] = "item.description">
+        </div>
         <div nz-col nzFlex = "10%"> 
             <label nz-checkbox [(ngModel)] = "item.editable"></label>
         </div>
         <nz-divider style = "margin : 5px 0px;"></nz-divider>
     </div>
-
-
-
+    
 </div>
