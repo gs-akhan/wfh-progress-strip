@@ -12,6 +12,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { ModalComponent } from './modal/modal.component';
 import { ComplexgridComponent } from './complexgrid/complexgrid.component';
 import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
+import { Grid1Component } from './grid1/grid1.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -52,4 +53,7 @@ export const routes: Routes = [{
 }, {
   path: "fields",
   component: FieldmapperComponent
+},{
+  path: "grid1",
+  component: Grid1Component
 }];
