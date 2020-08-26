@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Grid1Component implements OnInit {
 
+  languages = ["Rust", "Go Lang", "Java", "ErLang", "Perl"];
   constructor() { }
 
   ngOnInit(): void {

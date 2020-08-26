@@ -1,1 +1,43 @@
-<p>grid1 works!</p>
+<div style="width : 800px; margin: 0 auto;">
+
+    <div nz-row [nzJustify]="'space-between'">
+        <div nz-row style = "width : 300px;" [nzAlign] = "'middle'">
+            <div nz-col nzFlex = "30%">
+                <span nz-typography nzType="primary">Cockpit</span>
+            </div>
+            <div nz-col nzFlex = "50%">
+                <nz-select style="width : 100%" ngModel="Rust">
+                    <nz-option *ngFor="let c of languages"
+                        [nzValue]="c"
+                        [nzLabel]="c"></nz-option>
+                </nz-select>    
+            </div>
+        </div>
+
+        <div nz-row style = "width : 150px;" [nzJustify] = "'space-between'" [nzAlign] = "'middle'">
+            <div nz-col >
+                <button nz-button nzType="primary">Primary</button>
+            </div>
+            <div nz-col >
+                <div nz-row [nzJustify] = "'center'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-filter" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M5.5 5h13a1 1 0 0 1 0.5 1.5L14 12L14 19L10 16L10 12L5 6.5a1 1 0 0 1 0.5 -1.5" />
+                      </svg>
+                </div>
+            </div>
+            <div nz-col >
+
+                <div nz-row [nzJustify] = "'center'">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-maximize" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
+                        <path d="M4 16v2a2 2 0 0 0 2 2h2" />
+                        <path d="M16 4h2a2 2 0 0 1 2 2v2" />
+                        <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
+                      </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
