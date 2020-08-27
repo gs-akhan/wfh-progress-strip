@@ -1,11 +1,13 @@
 <div style="width : 800px; margin: 0 auto;">
 
     <div nz-row [nzJustify]="'space-between'">
-        <div nz-row style = "width : 300px;" [nzAlign] = "'middle'">
-            <div nz-col nzFlex = "30%">
+        <div nz-row  [nzAlign] = "'middle'">
+            
+            <div nz-col>
                 <span nz-typography nzType="primary">Cockpit</span>
             </div>
-            <div nz-col nzFlex = "50%">
+
+            <div nz-col nzPush = "2">
                 <nz-select style="width : 100%" ngModel="Rust">
                     <nz-option *ngFor="let c of languages"
                         [nzValue]="c"
