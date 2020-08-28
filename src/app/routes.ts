@@ -13,6 +13,7 @@ import { ModalComponent } from './modal/modal.component';
 import { ComplexgridComponent } from './complexgrid/complexgrid.component';
 import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
 import { Grid1Component } from './grid1/grid1.component';
+import { WidgetComponent } from './widget/widget.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -56,4 +57,7 @@ export const routes: Routes = [{
 },{
   path: "grid1",
   component: Grid1Component
+}, {
+  path: "widget",
+  component: WidgetComponent
 }];
