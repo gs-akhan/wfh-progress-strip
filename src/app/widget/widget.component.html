@@ -1,3 +1,27 @@
-<nz-card style="width:300px;">
-   
+<nz-card style="width:250px; padding : 10px;">
+    <div nz-row>
+        <h4 nz-typography>ARR</h4>
+    </div>
+    <div nz-row>
+        <div nz-typography style = "font-size : 36px; font-weight:200;" nzType="secondary">$ 12.3M</div>
+    </div>
+    <div nz-row [nzJustify] = "'space-between'">
+        <div nz-col>
+            <div nz-row>Target</div>
+            <div class = "f-s-20" nz-row nz-typography nzType = "primary" >$12M</div>
+        </div>
+        <div nz-col>
+            <div nz-row>Variance</div>
+            <div class = "f-s-20" nz-row nz-typography nzType = "primary" >2.50%</div>
+        </div>
+        <div nz-col>
+            <div nz-row style = "visibility:hidden;">I</div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-up" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4CAF50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="16" y1="9" x2="12" y2="5" />
+                <line x1="8" y1="9" x2="12" y2="5" />
+              </svg>
+        </div>
+    </div>
 </nz-card>
