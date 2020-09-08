@@ -43,6 +43,7 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzCheckboxModule } from 'ng-zorro-antd/checkbox';
 import { Grid1Component } from './grid1/grid1.component';
 import { WidgetComponent } from './widget/widget.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { WidgetComponent } from './widget/widget.component';
     ComplexgridComponent,
     FieldmapperComponent,
     Grid1Component,
-    WidgetComponent
+    WidgetComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

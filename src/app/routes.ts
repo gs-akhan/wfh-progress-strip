@@ -14,6 +14,7 @@ import { ComplexgridComponent } from './complexgrid/complexgrid.component';
 import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
 import { Grid1Component } from './grid1/grid1.component';
 import { WidgetComponent } from './widget/widget.component';
+import { HeaderComponent } from './header/header.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -54,10 +55,13 @@ export const routes: Routes = [{
 }, {
   path: "fields",
   component: FieldmapperComponent
-},{
+}, {
   path: "grid1",
   component: Grid1Component
 }, {
   path: "widget",
   component: WidgetComponent
+}, {
+  path: "header",
+  component: HeaderComponent
 }];
