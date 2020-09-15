@@ -15,6 +15,7 @@ import { FieldmapperComponent } from './fieldmapper/fieldmapper.component';
 import { Grid1Component } from './grid1/grid1.component';
 import { WidgetComponent } from './widget/widget.component';
 import { HeaderComponent } from './header/header.component';
+import { ResponsiveComponent } from './responsive/responsive.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -64,4 +65,7 @@ export const routes: Routes = [{
 }, {
   path: "header",
   component: HeaderComponent
+},{
+  path: "responsive",
+  component: ResponsiveComponent
 }];
