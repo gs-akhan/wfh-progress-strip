@@ -45,6 +45,7 @@ import { Grid1Component } from './grid1/grid1.component';
 import { WidgetComponent } from './widget/widget.component';
 import { HeaderComponent } from './header/header.component';
 import { ResponsiveComponent } from './responsive/responsive.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { ResponsiveComponent } from './responsive/responsive.component';
     Grid1Component,
     WidgetComponent,
     HeaderComponent,
-    ResponsiveComponent
+    ResponsiveComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
