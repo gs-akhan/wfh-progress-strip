@@ -18,7 +18,7 @@ import { StepsComponent } from './steps/steps.component';
 import { NzStepsModule } from 'ng-zorro-antd/steps';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { NzAutocompleteModule } from 'ng-zorro-antd/auto-complete';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
 import { NzCardModule } from 'ng-zorro-antd/card';
@@ -95,7 +95,9 @@ import { FormsComponent } from './forms/forms.component';
     NzTypographyModule,
     NzSelectModule,
     NzDividerModule,
-    NzCheckboxModule
+    NzCheckboxModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]

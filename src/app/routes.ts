@@ -16,6 +16,7 @@ import { Grid1Component } from './grid1/grid1.component';
 import { WidgetComponent } from './widget/widget.component';
 import { HeaderComponent } from './header/header.component';
 import { ResponsiveComponent } from './responsive/responsive.component';
+import { FormsComponent } from './forms/forms.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -68,4 +69,7 @@ export const routes: Routes = [{
 },{
   path: "responsive",
   component: ResponsiveComponent
+},{
+  path: "form",
+  component: FormsComponent
 }];
