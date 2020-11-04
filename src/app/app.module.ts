@@ -46,6 +46,7 @@ import { WidgetComponent } from './widget/widget.component';
 import { HeaderComponent } from './header/header.component';
 import { ResponsiveComponent } from './responsive/responsive.component';
 import { FormsComponent } from './forms/forms.component';
+import { FormgroupComponent } from './formgroup/formgroup.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { FormsComponent } from './forms/forms.component';
     WidgetComponent,
     HeaderComponent,
     ResponsiveComponent,
-    FormsComponent
+    FormsComponent,
+    FormgroupComponent
   ],
   imports: [
     BrowserModule,
