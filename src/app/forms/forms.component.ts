@@ -9,6 +9,8 @@ import { FormControl } from '@angular/forms';
 export class FormsComponent implements OnInit {
 
   nameControl = new FormControl("Azhar");
+  addressControl = new FormControl("San Fransisco");
+
   constructor() { }
   ngOnInit(): void {
   }

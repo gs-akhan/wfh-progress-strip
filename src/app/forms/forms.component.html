@@ -1,8 +1,20 @@
 <div>
     Name is : <input type="text"
-        [formControl]="nameControl" >
+        [formControl]="nameControl">
 
-    <button (click) = "clickMe()">
+    <br />
+    Address is : <input type="text"
+        [formControl]="addressControl">
+
+    <button (click)="clickMe()">
         Get Value
     </button>
+
+
+    <p>
+        Name : {{nameControl.value}}
+    </p>
+    <p>
+        Address : {{addressControl.value}}
+    </p>
 </div>
