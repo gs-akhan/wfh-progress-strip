@@ -31,3 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. Experimented all components. 
 2. Experiment AG grid
 3. Added links too all components
+4. Form controls
