@@ -17,6 +17,6 @@ export class FormsComponent implements OnInit {
   clickMe() {
     console.log("The Name will No");
     alert("Changing Name from Azhar to Azar");
-    this.nameControl.setValue("Azar");
+    this.nameControl.setValue("Azhar");
   }
 }
