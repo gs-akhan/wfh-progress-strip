@@ -1,1 +1,55 @@
-<p>formgroup works!</p>
+<h1>Animal Shelter Volunteer Form</h1>
+<form [formGroup]="volunteerForm"
+    (ngSubmit)="submitForm()">
+    <h2>Personal Information</h2>
+    <label>
+        First Name:
+        <input type="text"
+            formControlName="name"
+            placeholder="required">
+    </label>
+    <label>
+        Phone Number:
+        <input type="text"
+            formControlName="phoneNumber"
+            placeholder="required">
+    </label>
+    <label>Select Preferred Location:</label>
+    <select formControlName="location">
+        <option *ngFor="let loc of locations"
+            [ngValue]="loc">{{loc}}</option>
+    </select>
+    <h2>Please select what animals you're comfortable working with, if any:</h2>
+    <div class="grouping"
+        formGroupName="animals">
+        <label>Dogs
+            <input formControlName="dogs"
+                type="checkbox">
+        </label>
+        <label>Cats
+            <input formControlName="cats"
+                type="checkbox">
+        </label>
+        <label>Reptiles
+            <input formControlName="reptiles"
+                type="checkbox">
+        </label>
+    </div>
+    <h2>Reference(s)</h2>
+    <div class="grouping"
+        formArrayName="preferences"
+        *ngFor="let ref of preferences.controls; let i =index;">
+        <label>
+            Reference Email:
+            <input type="text"
+                [formControlName]="i"
+                placeholder="optional">
+            <button type="button"
+                (click)="removeEmail(i)"
+                id="remove_email">X</button>
+        </label>
+    </div>
+    <button type="button"
+        (click)="addPreference()">Add Another Reference</button>
+    <button id="apply_button">Apply</button>
+</form>
