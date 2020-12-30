@@ -32,3 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 2. Experiment AG grid
 3. Added links too all components
 4. Form controls
+5. Reactive Form Controls
+
+
+### Happy New Year 2021, It was crazy year learning all of this.
