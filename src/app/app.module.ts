@@ -47,6 +47,8 @@ import { HeaderComponent } from './header/header.component';
 import { ResponsiveComponent } from './responsive/responsive.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormgroupComponent } from './formgroup/formgroup.component';
+import { DraganddropComponent } from './draganddrop/draganddrop.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -69,7 +71,8 @@ import { FormgroupComponent } from './formgroup/formgroup.component';
     HeaderComponent,
     ResponsiveComponent,
     FormsComponent,
-    FormgroupComponent
+    FormgroupComponent,
+    DraganddropComponent
   ],
   imports: [
     BrowserModule,
@@ -99,7 +102,8 @@ import { FormgroupComponent } from './formgroup/formgroup.component';
     NzDividerModule,
     NzCheckboxModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    DragDropModule
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]

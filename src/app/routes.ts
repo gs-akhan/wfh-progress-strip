@@ -18,6 +18,7 @@ import { HeaderComponent } from './header/header.component';
 import { ResponsiveComponent } from './responsive/responsive.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormgroupComponent } from './formgroup/formgroup.component';
+import { DraganddropComponent } from './draganddrop/draganddrop.component';
 export const routes: Routes = [{
   path: "layout",
   component: LayoutComponent
@@ -76,4 +77,7 @@ export const routes: Routes = [{
 }, {
   path: "formgroup",
   component: FormgroupComponent
+}, {
+  path: "draganddrop",
+  component: DraganddropComponent
 }];
