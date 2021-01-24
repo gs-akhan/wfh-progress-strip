@@ -49,6 +49,8 @@ import { FormsComponent } from './forms/forms.component';
 import { FormgroupComponent } from './formgroup/formgroup.component';
 import { DraganddropComponent } from './draganddrop/draganddrop.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { FormlyModule } from '@ngx-formly/core';
+import { FormlyComponent } from './formly/formly.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +74,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     ResponsiveComponent,
     FormsComponent,
     FormgroupComponent,
-    DraganddropComponent
+    DraganddropComponent,
+    FormlyComponent
   ],
   imports: [
     BrowserModule,
@@ -103,7 +106,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     NzCheckboxModule,
     FormsModule,
     ReactiveFormsModule,
-    DragDropModule
+    DragDropModule,
+    FormlyModule.forRoot({ extras: { lazyRender: true } })
   ],
   providers: [NzMessageService],
   bootstrap: [AppComponent]
